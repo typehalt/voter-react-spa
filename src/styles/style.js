@@ -1,6 +1,6 @@
 import React from 'react';
 
-const link = {
+const link = {/*
   normal: {
     borderBottom: '1px dotted rgb(0, 168, 0)',
   },
@@ -18,7 +18,7 @@ const link = {
     outlineOffset: '2px',
     color: 'black',
   },
-  touchActiveTapOnly: true,
+  touchActiveTapOnly: true,*/
 };
 
 const childLink = {};

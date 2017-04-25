@@ -4,14 +4,18 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import App from './components/App';
 import Landing from './components/Landing';
+import Reo1 from './components/Reo1';
 import PageNotFound from './components/PageNotFound';
 import ExampleComponent from './components/ExampleComponent';
 import ExampleTwoDeepComponent from './components/ExampleTwoDeepComponent';
 
 
 const routes = (
-  <Route path="/voter-react-spa/" mapMenuTitle="Landing" component={App}>
+  /*<Route path="/voter-react-spa/" mapMenuTitle="Landing" component={App}>*/
+  <Route path="/" mapMenuTitle="Landing" component={App}>
     <IndexRoute component={Landing} />
+
+    <Route path="reo-1" mapMenuTitle="Reo1" component={Reo1} />
 
     <Route path="example" mapMenuTitle="Example" component={ExampleComponent}>
       <Route path="two-deep" mapMenuTitle="Two Deep" component={ExampleTwoDeepComponent} />
