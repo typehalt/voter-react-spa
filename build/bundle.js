@@ -78,7 +78,7 @@
 
 	var routes = _react2.default.createElement(
 	  _reactRouter.Route,
-	  { path: '/', mapMenuTitle: 'Landing', component: _App2.default },
+	  { path: '/voter-react-spa/', mapMenuTitle: 'Landing', component: _App2.default },
 	  _react2.default.createElement(_reactRouter.IndexRoute, { component: _Landing2.default }),
 	  _react2.default.createElement(
 	    _reactRouter.Route,
