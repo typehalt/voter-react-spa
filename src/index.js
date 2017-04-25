@@ -10,7 +10,7 @@ import ExampleTwoDeepComponent from './components/ExampleTwoDeepComponent';
 
 
 const routes = (
-  <Route path="/" mapMenuTitle="Landing" component={App}>
+  <Route path="/voter-react-spa/" mapMenuTitle="Landing" component={App}>
     <IndexRoute component={Landing} />
 
     <Route path="example" mapMenuTitle="Example" component={ExampleComponent}>
