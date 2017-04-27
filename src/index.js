@@ -11,8 +11,8 @@ import PageNotFound from './components/PageNotFound';
 const routes = (
   /* gh-pages switch */
   /*<Route path="/voter-react-spa/" mapMenuTitle="Landing" component={App}>*/
-  <Route path="/voter-react-spa/" mapMenuTitle="Landing" component={App}>
   /*<Route path="/" mapMenuTitle="Landing" component={App}>*/
+  <Route path="/voter-react-spa/" mapMenuTitle="Landing" component={App}>
     <IndexRoute component={Landing} />
 
     <Route path="reo-1" mapMenuTitle="Reo1" component={Reo1} />
