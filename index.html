@@ -6,6 +6,8 @@
     <title>2017 選民登記行動 — kbfl</title>
     <meta name="description" content="2017 年香港選民登記。只要你是香港永久性居民、通常在香港居住及已年滿 18 歲，參與選舉就是你的基本權利。我是方丈選民登記行動。 Hong Kong voter registration.">
 
+    <link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
+
     <style>
       html, body, div, span, a, p, ul, li, h1, code, nav {
         margin: 0;
@@ -17,12 +19,13 @@
         text-align: inherit;
         color: inherit;
         background: transparent;
+        font-family:"Noto Sans TC","Pingfang TC","Heiti TC","Apple LiGothic Medium","Droid Sans Fallback","WenQuanYi Micro Hei","Microsoft JhengHei","Arial Unicode MS","AR PL UKai TW MBE",sans-serif;
       }
       /*pass window height (w/o scroll bars) down to react app, note can't use vh becasue that
       includes scroll bars and mobile browser footer, etc so doesn't give viewable area*/
       html, body { height: 100%; }
-      html { background-color: rgb(0, 120, 0); }
-      #root { background-color: #F0F0F0; min-height: 100%; }
+      html {  }
+      #root { min-height: 100%; }
 
       /*required for IE/Edge to be compatible with left:50vw & transform:translate(-50%, 0),
       otherwise there is a phantom div on the right side of the screen (from the left:50vw),

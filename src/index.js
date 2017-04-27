@@ -6,8 +6,6 @@ import App from './components/App';
 import Landing from './components/Landing';
 import Reo1 from './components/Reo1';
 import PageNotFound from './components/PageNotFound';
-import ExampleComponent from './components/ExampleComponent';
-import ExampleTwoDeepComponent from './components/ExampleTwoDeepComponent';
 
 
 const routes = (
@@ -16,10 +14,6 @@ const routes = (
     <IndexRoute component={Landing} />
 
     <Route path="reo-1" mapMenuTitle="Reo1" component={Reo1} />
-
-    <Route path="example" mapMenuTitle="Example" component={ExampleComponent}>
-      <Route path="two-deep" mapMenuTitle="Two Deep" component={ExampleTwoDeepComponent} />
-    </Route>
 
     <Route path="*" mapMenuTitle="Page Not Found" component={PageNotFound} />
   </Route>
