@@ -77,7 +77,7 @@ class Reo1 extends React.Component {
 
     return (
       <div>
-        <h1>請填妥以下表格</h1>
+        <h1>新登記直選及超級區議會選民</h1>
         <Stepper activeStep={stepIndex} orientation="vertical">
           <Step>
             <StepLabel>中文姓名</StepLabel>

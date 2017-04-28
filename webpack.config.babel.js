@@ -18,7 +18,7 @@ export default {
       {
         test: /\.css$/,
         loader: 'style-loader!css-loader',
-        include: /flexboxgrid/
+        include: /(flexboxgrid|normalize\.css)/
       },
       {
         test: /\.(jpg|png|svg)$/,

@@ -8,13 +8,13 @@ const EnglishName = () => (
       <Row>
         <Col xs={12} sm={6}>
           <TextField
-              hintText="Wong"
+              hintText="LAM"
               floatingLabelText="英文姓氏"
               floatingLabelFixed={true}
             />
           <br />
           <TextField
-              hintText="Yat Sum"
+              hintText="Yau Ling"
               floatingLabelText="英文名字"
               floatingLabelFixed={true}
             />

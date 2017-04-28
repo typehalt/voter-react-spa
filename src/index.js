@@ -7,6 +7,7 @@ import Landing from './components/Landing';
 import Reo1 from './components/Reo1';
 import PageNotFound from './components/PageNotFound';
 
+import 'normalize.css';
 
 const routes = (
   /*<Route path="/voter-react-spa/" mapMenuTitle="Landing" component={App}>*/

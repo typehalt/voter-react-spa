@@ -17,7 +17,7 @@ const propTypes = {
 
 const muiTheme = getMuiTheme({
   palette: {
-    primary1Color: "#ac1b2f",
+    primary1Color: "#c91f37",
   },
 });
 
