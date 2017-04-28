@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
-import s from '../styles/app.style';
 
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
@@ -24,7 +23,7 @@ const muiTheme = getMuiTheme({
 
 function App({ children, routes }) {
   return (
-    <div style={s.root}>
+    <div>
       <MuiThemeProvider  muiTheme={muiTheme}>
         <VoterSpaAppBar />
       </MuiThemeProvider>

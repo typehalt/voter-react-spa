@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import s from '../styles/pageNotFound.style';
 
 const propTypes = {
   location: PropTypes.object.isRequired,
@@ -7,8 +6,8 @@ const propTypes = {
 
 function PageNotFound({ location }) {
   return (
-    <p style={s.p}>
-      Page not found - the path, {s.code(location.pathname)},
+    <p>
+      Page not found - the path,
       did not match any React Router routes.
     </p>
   );
