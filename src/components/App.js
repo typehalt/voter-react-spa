@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
-import s from '../styles/app.style';
 
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
@@ -9,7 +8,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {redA400} from 'material-ui/styles/colors';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import VoterSpaAppBar from './VoterSpaAppBar';
+import VoterRegistrationAppBar from './VoterRegistrationAppBar';
 
 const propTypes = {
   children: PropTypes.element.isRequired,
@@ -18,15 +17,15 @@ const propTypes = {
 
 const muiTheme = getMuiTheme({
   palette: {
-    primary1Color: "#ac1b2f",
+    primary1Color: "#c91f37",
   },
 });
 
 function App({ children, routes }) {
   return (
-    <div style={s.root}>
+    <div>
       <MuiThemeProvider  muiTheme={muiTheme}>
-        <VoterSpaAppBar />
+        <VoterRegistrationAppBar />
       </MuiThemeProvider>
       <Grid fluid>
         <Row>

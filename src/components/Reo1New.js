@@ -24,7 +24,7 @@ import {grey400} from 'material-ui/styles/colors';
  *
  * <small>(The vertical stepper can also be used without `<StepContent>` to display a basic stepper.)</small>
  */
-class Reo1 extends React.Component {
+class Reo1New extends React.Component {
 
   state = {
     finished: false,
@@ -53,8 +53,6 @@ class Reo1 extends React.Component {
       <div style={{margin: '12px 0'}}>
         <RaisedButton
           label={stepIndex === 4 ? '製作供上載的表格' : '下一步'}
-          disableTouchRipple={true}
-          disableFocusRipple={true}
           primary={true}
           onClick={this.handleNext}
           style={{marginRight: 12}}
@@ -63,8 +61,6 @@ class Reo1 extends React.Component {
           <FlatButton
             label="返回"
             disabled={stepIndex === 0}
-            disableTouchRipple={true}
-            disableFocusRipple={true}
             onClick={this.handlePrev}
           />
         )}
@@ -77,6 +73,7 @@ class Reo1 extends React.Component {
 
     return (
       <div>
+        <h1>新登記直選及超級區議會選民</h1>
         <Stepper activeStep={stepIndex} orientation="vertical">
           <Step>
             <StepLabel>中文姓名</StepLabel>
@@ -149,4 +146,4 @@ class Reo1 extends React.Component {
   }
 }
 
-export default Reo1;
+export default Reo1New;

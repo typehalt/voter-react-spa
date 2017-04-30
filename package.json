@@ -1,6 +1,6 @@
 {
   "name": "voter-registration",
-  "version": "4.0.0",
+  "version": "2.0.0",
   "description": "A voter registration form generator for Hong Kong.",
   "scripts": {
     "start": "webpack-dev-server -d --inline --host 0.0.0.0 --history-api-fallback --progress",
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "url": "git+https://github.com/kbflf5/voter-registration.git"
   },
   "author": "Keyboard Frontline <kbfl-campaign@kbfl.org>",
   "license": "GPL-3.0",
   "dependencies": {
+    "formsy-material-ui": "^0.6.0",
+    "formsy-react": "^0.19.2",
     "material-ui": "^0.17.4",
+    "normalize.css": "^6.0.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-flexbox-grid": "^1.1.1",
@@ -35,6 +38,10 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.8.0",
+    "css-loader": "^0.28.0",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "file-loader": "^0.11.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   }

@@ -8,13 +8,13 @@ const ChineseName = () => (
       <Row>
         <Col xs={12} sm={6}>
           <TextField
-              hintText="王一心"
+              hintText="林幼羚"
               floatingLabelText="中文姓名"
               floatingLabelFixed={true}
             />
           <br />
           <TextField
-              hintText="3769 0001 1800"
+              hintText="2851 1835 5024"
               floatingLabelText="中文電碼"
               floatingLabelFixed={true}
               style={{fontFamily: "monospaced"}}
