@@ -8,7 +8,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {redA400} from 'material-ui/styles/colors';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import VoterSpaAppBar from './VoterSpaAppBar';
+import VoterRegistrationAppBar from './VoterRegistrationAppBar';
 
 const propTypes = {
   children: PropTypes.element.isRequired,
@@ -25,7 +25,7 @@ function App({ children, routes }) {
   return (
     <div>
       <MuiThemeProvider  muiTheme={muiTheme}>
-        <VoterSpaAppBar />
+        <VoterRegistrationAppBar />
       </MuiThemeProvider>
       <Grid fluid>
         <Row>

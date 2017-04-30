@@ -5,8 +5,10 @@ import {grey400} from 'material-ui/styles/colors';
 
 const Gender = () => (
   <div>
-    <p style={{color: grey400}}>請選擇身份證上所寫的性別</p>
-    <RadioButtonGroup name="gender" style={{paddingTop: 10}}>
+    <p>
+      <small style={{color: '#999'}}>請選擇身份證上所寫的性別</small>
+    </p>
+    <RadioButtonGroup name="gender" style={{paddingTop: 12, paddingBottom: 12}}>
       <RadioButton
         value="male"
         label="男"
